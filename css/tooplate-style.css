@@ -469,8 +469,7 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   #about {
-    background: url('../images/about-bg.jpg') no-repeat top center;
-    background-size: cover;
+    background: none;
     padding-top: 150px;
     padding-bottom: 150px;
   }
