@@ -147,6 +147,7 @@ http://www.tooplate.com/view/2098-health
   .news-thumb {
     background: #ffffff;
     border-radius: 10px;
+    margin-bottom: 30px;
   }
   .news-thumb img {
     border-radius: 10px 10px 0 0;
