@@ -1,10 +1,4 @@
-/*
-
-Template 2098 Health
-
-http://www.tooplate.com/view/2098-health
-
-*/
+/* http://www.tooplate.com/view/2098-health */
 
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
@@ -14,11 +8,7 @@ http://www.tooplate.com/view/2098-health
     overflow-x: hidden;
   }
 
-
-  /*---------------------------------------
-     TYPOGRAPHY              
-  -----------------------------------------*/
-
+/* TYPOGRAPHY */
   h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
     line-height: inherit;
@@ -67,11 +57,7 @@ http://www.tooplate.com/view/2098-health
     line-height: 24px;
   }
 
-
-  /*---------------------------------------
-     GENERAL               
-  -----------------------------------------*/
-
+/* GENERAL */
   html{
     -webkit-font-smoothing: antialiased;
   }
@@ -204,11 +190,7 @@ http://www.tooplate.com/view/2098-health
     padding: 0;
   }
 
-
-  /*---------------------------------------
-       PRE LOADER              
-  -----------------------------------------*/
-
+/* PRE LOADER */
   .preloader {
     position: fixed;
     top: 0;
@@ -253,12 +235,7 @@ http://www.tooplate.com/view/2098-health
     to {transform: rotate(360deg);}
   }
 
-
-
-  /*---------------------------------------
-      MENU              
-  -----------------------------------------*/
-
+/* MENU */
   header {
     background: #ffffff;
     border-bottom: 1px solid #f2f2f2;
@@ -300,12 +277,7 @@ http://www.tooplate.com/view/2098-health
     margin-right: 5px;
   }
 
-
-
-  /*---------------------------------------
-      MENU              
-  -----------------------------------------*/
-
+/* MENU */
   .navbar-default {
     background: #ffffff;
     box-shadow: 0 2px 8px rgba(0,0,0,.075);
@@ -383,12 +355,7 @@ http://www.tooplate.com/view/2098-health
     background-color: transparent;
   }
 
-
-
-  /*---------------------------------------
-      HOME              
-  -----------------------------------------*/
-
+/* HOME */
   #home h1 {
     color: #ffffff;
     padding-bottom: 10px;
@@ -405,70 +372,7 @@ http://www.tooplate.com/view/2098-health
     margin: 0;
   }
 
-  .slider .container {
-    width: 100%;
-  }
-
-  .slider .owl-dots {
-      position: absolute;
-      top: 575px;
-      width: 100%;
-      justify-content: center;
-  }
-
-  .owl-theme .owl-dots .owl-dot span {
-    width: 8px;
-    height: 8px;
-    margin: 5px 7px;
-    border: 2px solid #d9d9d9;
-    background: transparent;
-    display: block;
-    -webkit-backface-visibility: visible;
-    transition: opacity 200ms ease;
-    border-radius: 30px;
-  }
-
-  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #ffffff;
-    border-color: transparent;
-  }
-
-  .slider .caption {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: rgba(20,20,20,0.2);
-    height: 100%;
-    color: #fff;
-    cursor: e-resize;
-  }
-
-  .slider .item {
-    background-position: inherit;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
-    height: 650px;
-  }
-
-  .slider .item-first {
-    background-image: url(../images/slider1.jpg);
-  }
-
-  .slider .item-second {
-    background-image: url(../images/slider2.jpg);
-  }
-
-  .slider .item-third {
-    background-image: url(../images/slider3.jpg);
-  }
-
-
-  /*---------------------------------------
-      ABOUT              
-  -----------------------------------------*/
-
+/* ABOUT */
   #about {
     background: none;
     padding-top: 150px;
@@ -496,12 +400,7 @@ http://www.tooplate.com/view/2098-health
     margin: 0;
   }
 
-
-
-  /*---------------------------------------
-      TEAM MEMBERS              
-  -----------------------------------------*/
-
+/* TEAM MEMBERS */
   .team-thumb {
     background-color: #f9f9f9;
     border-radius: 0 0 10px 10px;
@@ -563,12 +462,7 @@ http://www.tooplate.com/view/2098-health
     top: -22em;
   }
 
-
-
-  /*---------------------------------------
-     SERVICE              
-  -----------------------------------------*/
-
+/* SERVICE */
   #service {
     background: #a5c422;
   }
@@ -597,11 +491,7 @@ http://www.tooplate.com/view/2098-health
     border-radius: 100%;
   }
 
-
-  /*---------------------------------------
-      NEWS             
-  -----------------------------------------*/
-
+/* PORTFOLIO */
   #news, #news-detail {
     background: #f9f9f9;
   }
@@ -745,54 +635,7 @@ http://www.tooplate.com/view/2098-health
     background: #4267b2;
   }
 
-
-
-  /*---------------------------------------
-      APPOINTMENT             
-  -----------------------------------------*/
-
-  #appointment {
-    padding-top: 100px;
-  }
-
-  #appointment label {
-    color: #393939;
-    font-weight: 500;
-  }
-
-  #appointment .form-control {
-    background: #f9f9f9;
-    border: none;
-    border-radius: 3px;
-    box-shadow: none;
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    transition: all ease-in-out 0.4s;
-  }
-
-  #appointment input,
-  #appointment select {
-    height: 45px;
-  }
-
-  #appointment button#cf-submit {
-    background: #a5c422;
-    color: #ffffff;
-    font-weight: 600;
-    height: 55px;
-  }
-
-  #appointment button#cf-submit:hover {
-    background: #393939;
-    color: #ffffff;
-  }
-
-
-  /*---------------------------------------
-     FOOTER              
-  -----------------------------------------*/
-
+/* FOOTER */
   footer {
     padding-top: 80px;
     padding-bottom: 40px;
@@ -907,11 +750,7 @@ http://www.tooplate.com/view/2098-health
     transform: translateY(-5px);
   }
 
-
-  /*---------------------------------------
-     SOCIAL ICON              
-  -----------------------------------------*/
-
+/* SOCIAL ICON */
   .social-icon {
     position: relative;
     padding: 0;
@@ -941,11 +780,7 @@ http://www.tooplate.com/view/2098-health
     color: #ffffff;
   }
 
-
-  /*---------------------------------------
-     RESPONSIVE STYLES              
-  -----------------------------------------*/
-
+/* RESPONSIVE STYLES */
   @media only screen and (max-width: 1200px) {
     h1 {
       font-size: 4em;
@@ -1054,4 +889,3 @@ http://www.tooplate.com/view/2098-health
     }
 
   }
-
