@@ -400,6 +400,10 @@
     margin: 0;
   }
 
+  .title-strong {
+    font-size: 1.4em;
+  }
+
 /* TEAM MEMBERS */
   .team-thumb {
     background-color: #f9f9f9;
@@ -607,29 +611,39 @@
 
   .news-tags h4 {
     padding-bottom: 6px;
+    
   }
 
-  .news-categories li,
-  .news-tags li {
+  .news-categories li {
     list-style: none;
     display: inline-block;
     margin: 4px;
   }
 
-  .news-tags li a {
-    background: #393939;
-    border-radius: 50px;
-    color: #ffffff;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 500;
-    text-decoration: none;
-    float: left;
-    min-width: 30px;
-    padding: 6px 12px;
-    -webkit-transition: all ease-in-out 0.4s;
-    transition: all ease-in-out 0.4s;
+  .news-tags {
+    margin:0;
+    padding: 0;
   }
+  
+  .news-tags li {
+    list-style: none;
+    display: inline-block;
+    margin: 4px 4px 4px 0;
+  }
+
+.news-tags li .tag-pill {
+  background: #393939;
+  border-radius: 50px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  min-width: 30px;
+  padding: 6px 12px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
 
   .news-tags li a:hover {
     background: #4267b2;
